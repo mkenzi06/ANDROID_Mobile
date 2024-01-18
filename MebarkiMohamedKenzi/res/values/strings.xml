@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MebarkiMohamedKenzi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="idtitre">ImcCal</string>
+    <string name="idtext1">L\'indoce de Masse Corporelle (IMC) permet d\'evaluer rapidement votre corpulence simplement avec votre poids et votre taille.</string>
+    <string name="idtitrebtn">Calculez Votre IMC</string>
+    <string name="idcategtxt">Categories d\'IMC</string>
+    <string name="title_activity_calcul">CalculActivity</string>
+    <string name="idtitreint2">Calculez votre IMC</string>
+    <string name="idpara1">Et decouvrez dans quelle categorie vous vous situez !</string>
+    <string name="idbtntxt">Calculer</string>
+    <string name="idhint1">indiquez votre poids en kg</string>
+    <string name="idhintm">Indiquez votre taille en m</string>
+    <string name="idr">Resultat:</string>
+    <string name="idtitreimc">IMC:</string>
+    <string name="idcttxt">Categorie:</string>
+    <string name="idpoint">......</string>
+    <string name="title_activity_categorie">CategorieActivity</string>
+    <string name="idtitreint3">Categories IMC</string>
+    <string name="idtitrefin">Ensemble prenons soins de votre sante !</string>
+
+</resources>
