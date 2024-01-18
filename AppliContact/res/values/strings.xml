@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppliContact</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pio">Liste des Contactes</string>
+    <string name="aj">Ajouter un contacte</string>
+    <string name="title_activity_ajout">AjoutActivity</string>
+    <string name="ctnc">nouveau contact</string>
+    <string name="nc">Nom du contact</string>
+    <string name="numcontc">numero du contact</string>
+    <string name="ajtbtn">Ajouter</string>
+    <string name="title_activity_mod_sup">ModSupActivity</string>
+    <string name="maj">Maj Contact</string>
+    <string name="newn">Nouveau nom</string>
+    <string name="numne">nouveau numero</string>
+    <string name="pelel"></string>
+    <string name="els">nouveau numero</string>
+
+</resources>
