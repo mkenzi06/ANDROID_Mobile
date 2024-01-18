@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CalculActivity" 
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/idtitre"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#9A1213"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/etnb1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint1" 
+            android:layout_marginBottom="10dp"
+            android:textColor="#FFF">
+            
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etnb2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint2" 
+            android:layout_marginBottom="10dp"
+            android:textColor="#FFF"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="10dp"
+            >
+            
+
+            <Button
+                android:id="@+id/badd"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idadd" 
+                android:background="#9A1213"
+                android:textColor="#FFF"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/bsous"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idsou"
+                android:background="#9A1213"
+                android:textColor="#FFF"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:id="@+id/bmul"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idmul"
+                android:background="#9A1213"
+                android:textColor="#FFF" 
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/bdiv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iddiv"
+                android:background="#9A1213"
+                android:textColor="#FFF" 
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/bce"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idce"
+                android:background="#9A1213"
+                android:textColor="#FFF" 
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idres"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#9A1213"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idpoint"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#9A1213" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
